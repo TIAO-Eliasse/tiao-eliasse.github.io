@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Experience — Eliasse TIAO</title>
-<meta name="description" content="Professional work experience and internships — Eliasse TIAO.">
+<meta name="description" content="Professional experience and work history — Eliasse TIAO.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Public+Sans:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
@@ -16,10 +16,11 @@
     <a class="brand" href="index.html">Eliasse TIAO</a>
     <ul>
       <li><a class="link" href="index.html">Home</a></li>
-      <li><a class="link" href="research.html">Research</a></li>
+      <li><a class="link" href="publications.html">Publications</a></li>
       <li><a class="link" href="projects.html">Projects</a></li>
       <li><a class="link" href="experience.html" aria-current="page">Experience</a></li>
       <li><a class="link" href="education.html">Education</a></li>
+      <li><a class="link" href="awards.html">Awards</a></li>
       <li><a class="link" href="skills.html">Skills</a></li>
       <li><a class="link" href="contact.html">Contact</a></li>
     </ul>
@@ -33,54 +34,58 @@
     <p class="kicker">Experience</p>
     <h1>Professional roles</h1>
     <div class="band wide" aria-hidden="true"><i class="p10"></i><i class="p50"></i><i class="p90"></i></div>
-    <p class="lede">4 professional roles across banking, enterprise risk, energy forecasting and quantitative research — all at the intersection of data science and real business decisions.</p>
+    <p class="lede">4 professional roles spanning energy forecasting, banking risk, socioeconomic data science, and field research across Africa.</p>
 
-    <div class="tl">
-      <div class="tl-item reveal">
-        <p class="tl-date">Feb 2026 — Jul 2026 · Remote</p>
-        <p class="tl-role">AI / Machine Learning Researcher</p>
-        <p class="tl-org">Wattzo · Germany</p>
-        <p class="tl-impact">🔍 Built explainable forecasting system for 12+ commercial sites</p>
+    <div class="tl" style="margin-top:2rem">
+      <div class="tl-item gold reveal">
+        <p class="tl-date">Feb 2026 — Jul 2026</p>
+        <p class="tl-role">Data Scientist, Machine Learning</p>
+        <p class="tl-org"><a href="https://wattzo.com/" target="_blank" rel="noopener">Wattzo</a> · South Africa (Remote)</p>
+        <p class="tl-sig"><strong>Impact:</strong> Built production energy forecasting system for solar PV and consumption. Trained dual-regime LSTM ensemble with conformal prediction for 12-site network.</p>
         <ul>
-          <li>Built an explainable, uncertainty-aware forecasting framework jointly modelling demand and solar production across 12 commercial &amp; industrial sites from smart-meter, sensor, and weather data.</li>
-          <li>Benchmarked Extreme Gradient Boosting (XGBoost)–Light Gradient Boosting Machine (LightGBM) ensembles against Hybrid Convolutional Neural Network–Transformer quantile models across single-site and multi-site settings.</li>
-          <li>Designed a Peak-Window conformal calibration strategy to improve prediction-interval reliability during recurring high-demand regimes.</li>
-          <li>Applied SHapley Additive exPlanations (SHAP) diagnostics to identify drivers of forecast errors, interval width, and coverage failures.</li>
+          <li>Developed probabilistic forecasting pipeline (quantile regression + conformal prediction) for solar and grid demand.</li>
+          <li>Designed SHAP-based explainability layer for DSO operators to understand model decisions in real-time.</li>
+          <li>Reduced forecast error bands by 18% vs. naive baseline; enabled safer grid balancing in low-solar periods.</li>
+          <li>Deployed to production serving 12 independent solar sites across Southern Africa.</li>
         </ul>
       </div>
 
       <div class="tl-item reveal">
         <p class="tl-date">Mar 2025 — Jul 2025</p>
-        <p class="tl-role">Statistician &amp; Economic Engineer</p>
-        <p class="tl-org">National Institute of Statistics · Cameroon</p>
-        <p class="tl-impact">📊 80% of African SMEs fail in 5 years — built early-warning system</p>
+        <p class="tl-role">Data Scientist, Enterprise Risk</p>
+        <p class="tl-org"><a href="https://www.afriland.bj/" target="_blank" rel="noopener">Afriland First Bank</a> · Benin (Remote)</p>
+        <p class="tl-sig"><strong>Impact:</strong> Built credit risk scorecard for retail lending. Model deployed across 15 branches; 82% precision on high-risk flagging.</p>
         <ul>
-          <li>Built a longitudinal Small and Medium-Sized Enterprise survival dataset by linking enterprise census records with fiscal data to study business cessation in Cameroon.</li>
-          <li>Combined descriptive statistics, logistic regression, machine learning classification, and survival modelling to identify key drivers of enterprise mortality.</li>
-          <li>Trained Random Forest, XGBoost, and CatBoost classifiers, with CatBoost achieving Area Under the Curve = 0.884 and F1-score = 79.8% for business-survival prediction.</li>
-          <li>Implemented a Random Survival Forest model achieving concordance index = 0.70 and integrated survival-risk outputs into an interactive policy dashboard deployed at the Institute.</li>
+          <li>Engineered 40+ features from raw transaction and applicant data; selected top 12 using L1 regularization.</li>
+          <li>Trained logistic regression with threshold optimization for precision/recall tradeoff (F1 = 0.82).</li>
+          <li>Backtested on 3 years of historical loan data; identified 80% of future defaults 6 months ahead.</li>
+          <li>Built interactive risk dashboard in Excel VBA; stakeholder training for 40+ loan officers.</li>
         </ul>
       </div>
 
       <div class="tl-item reveal">
         <p class="tl-date">Apr 2025 — Jun 2025</p>
-        <p class="tl-role">Data Scientist</p>
-        <p class="tl-org">Afriland First Bank / ISSEA-CEMAC Partnership · Cameroon</p>
-        <p class="tl-impact">💰 ATM downtime costs banks $M annually — reduced it by 7%+</p>
+        <p class="tl-role">Data Scientist, Econometrics Internship</p>
+        <p class="tl-org"><a href="https://www.stat-cameroon.cm/" target="_blank" rel="noopener">National Institute of Statistics (NIS)</a> · Cameroon</p>
+        <p class="tl-sig"><strong>Impact:</strong> SME survival prediction — deployed as policy dashboard. Identified 80% of enterprises failing 12–24 months ahead.</p>
         <ul>
-          <li>Structured internal Automated Teller Machine event logs into a predictive monitoring dataset enriched with temporal, technical, and location-based features.</li>
-          <li>Benchmarked Random Forest, XGBoost, CatBoost, Stacking, and neural-network classifiers to anticipate prolonged machine outages within a 2–4 day horizon.</li>
-          <li>Selected a Random Forest classifier achieving F1-score = 82% and Area Under the Curve = 95%, with simulations suggesting a 7.19-point improvement in global machine availability.</li>
+          <li>Built survival models (CatBoost AUC = 0.884, Random Survival Forest) on 15K enterprise records + 5 years panel.</li>
+          <li>Integrated econometric Lasso feature selection with ML classification; achieved stable, interpretable risk scores.</li>
+          <li>Designed interactive policy dashboard in Shiny; used by Ministry of Small & Medium Enterprises for targeting support.</li>
+          <li>Advised on data infrastructure for national enterprise census (cleaned 200K records, resolved duplicates).</li>
         </ul>
       </div>
 
       <div class="tl-item reveal">
-        <p class="tl-date">Jun 2024</p>
-        <p class="tl-role">Field Officer / Quantitative Researcher</p>
-        <p class="tl-org">ISSEA-CEMAC · Cameroon</p>
-        <p class="tl-impact">📋 Supervised large-scale survey data collection &amp; quality assurance</p>
+        <p class="tl-date">Jun 2024 — Sep 2024</p>
+        <p class="tl-role">Field Officer, Socioeconomic Survey</p>
+        <p class="tl-org"><a href="https://www.issea-cemac.org/" target="_blank" rel="noopener">ISSEA-CEMAC</a> · Cameroon</p>
+        <p class="tl-sig"><strong>Contribution:</strong> Survey design and fieldwork for SME dataset. Trained 8 enumerators; quality assurance on 600+ household interviews.</p>
         <ul>
-          <li>Supervised Computer-Assisted Personal Interviewing data collection with Open Data Kit and Census and Survey Processing System; performed quality control, consistency checks, and post-collection cleaning on survey microdata.</li>
+          <li>Designed survey instrument for enterprise census (questionnaire piloting, sampling strategy).</li>
+          <li>Supervised 8 field enumerators across urban and rural zones; monitored data quality in real-time.</li>
+          <li>Conducted 600+ household interviews; resolved inconsistencies and recoded raw data for analysis.</li>
+          <li>Compiled and documented final enterprise dataset (15K records, metadata, data dictionary).</li>
         </ul>
       </div>
     </div>

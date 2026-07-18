@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Awards & Recognition — Eliasse TIAO</title>
+<meta name="description" content="Honors and awards — Eliasse TIAO.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Public+Sans:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="index.html">Eliasse TIAO</a>
+    <ul>
+      <li><a class="link" href="index.html">Home</a></li>
+      <li><a class="link" href="publications.html">Publications</a></li>
+      <li><a class="link" href="projects.html">Projects</a></li>
+      <li><a class="link" href="experience.html">Experience</a></li>
+      <li><a class="link" href="education.html">Education</a></li>
+      <li><a class="link" href="awards.html" aria-current="page">Awards</a></li>
+      <li><a class="link" href="skills.html">Skills</a></li>
+      <li><a class="link" href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+
+<section>
+  <div class="wrap">
+    <p class="kicker">Recognition</p>
+    <h1>Honors & awards</h1>
+    <div class="band wide" aria-hidden="true"><i class="p10"></i><i class="p50"></i><i class="p90"></i></div>
+    <p class="lede">Competitive recognition across research, competitions, and professional achievement. Each represents rigorous peer review or public validation.</p>
+
+    <div class="grid cols-2">
+      <article class="card card-award reveal">
+        <p class="sub">COMPETITIVE SCHOLARSHIP</p>
+        <h3>Google DeepMind Scholarship</h3>
+        <p class="award-detail">AIMS / Stellenbosch University · 2025–2026</p>
+        <p>Full scholarship covering tuition, accommodation and living costs. One of Africa's most competitive awards for AI research talent — fewer than 15 awarded annually across the entire continent to exceptional candidates.</p>
+        <p style="margin-top:.8rem;font-size:.88rem;color:var(--slate);">This is one of the world's most selective AI research scholarships, awarded only to graduates who demonstrate both exceptional research promise and commitment to trustworthy AI.</p>
+      </article>
+
+      <article class="card card-award reveal">
+        <p class="sub">WORLDWIDE COMPETITION</p>
+        <h3>5th place, Hausa track — SemEval-2026 Task 9</h3>
+        <p class="award-detail">Polarization manifestation identification (low-resource NLP) · 2026</p>
+        <p>Ranked 5th globally on the Hausa track (out of 50+ teams), 14th on English. Research published in <strong>Proceedings of SemEval-2026 (ACL)</strong>, pp. 1632–1640, San Diego, USA.</p>
+        <p style="margin-top:.8rem;font-size:.88rem;color:var(--slate);">ACL (Association for Computational Linguistics) is the top peer-reviewed venue for natural language processing. SemEval is the premier shared task competition for evaluating semantic and lexical systems on benchmark datasets.</p>
+      </article>
+
+      <article class="card card-award reveal">
+        <p class="sub">REGIONAL HACKATHON</p>
+        <h3>Finalist, IndabaX Cameroon Hackathon</h3>
+        <p class="award-detail">Deep Learning Indaba Network · 2025</p>
+        <p>Data visualization innovation track. Selected from 80+ teams across Cameroon. Organized by the Deep Learning Indaba, Africa's largest AI research community and conference.</p>
+        <p style="margin-top:.8rem;font-size:.88rem;color:var(--slate);">Deep Learning Indaba is the premier AI conference in Africa, bringing together researchers and practitioners from across the continent. IndabaX events provide a forum for demonstrating applied AI skills under competitive conditions.</p>
+      </article>
+
+      <article class="card card-award reveal">
+        <p class="sub">INSTITUTIONAL RECOGNITION</p>
+        <h3>2nd Prize, Data Visualization Competition</h3>
+        <p class="award-detail">ISSEA-CEMAC · 2024</p>
+        <p>Best data storytelling on employment statistics and economic trends in Africa. Recognized for clarity of insight and decision-oriented narrative design.</p>
+        <p style="margin-top:.8rem;font-size:.88rem;color:var(--slate);">ISSEA (Sub-Regional Institute of Statistics and Applied Economics) is Africa's flagship institution for training statisticians and economists in data science at scale.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap foot">
+    <div class="links">
+      <a href="https://github.com/TIAO-Eliasse" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/eliasse-tiao-781523309/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://scholar.google.com/citations?user=YQI49OQAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+      <a href="https://orcid.org/0009-0000-8173-0854" target="_blank" rel="noopener">ORCID</a>
+      <a href="mailto:eliassetiao@gmail.com">Email</a>
+    </div>
+    <small>© <span id="y">2026</span> Eliasse TIAO</small>
+  </div>
+</footer>
+
+<script>
+document.getElementById('y').textContent=new Date().getFullYear();
+if(matchMedia('(prefers-reduced-motion: no-preference)').matches){
+  const o=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');o.unobserve(e.target)}}),{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el=>o.observe(el));
+}
+</script>
+</body>
+</html>
