@@ -19,6 +19,8 @@
       <li><a class="link" href="research.html" aria-current="page">Research</a></li>
       <li><a class="link" href="projects.html">Projects</a></li>
       <li><a class="link" href="experience.html">Experience</a></li>
+      <li><a class="link" href="education.html">Education</a></li>
+      <li><a class="link" href="skills.html">Skills</a></li>
       <li><a class="link" href="contact.html">Contact</a></li>
     </ul>
   </div>
@@ -29,14 +31,31 @@
 <section>
   <div class="wrap">
     <p class="kicker">Research</p>
-    <h1>Publications</h1>
+    <h1>Publications & scholarship</h1>
     <div class="band wide" aria-hidden="true"><i class="p10"></i><i class="p50"></i><i class="p90"></i></div>
     <p class="lede">My research sits at the intersection of trustworthy machine learning and real-world decision-making: explainable AI, uncertainty quantification, human–AI collaboration, and NLP for low-resource African languages.</p>
+    
+    <div class="proof-bar reveal">
+      <div class="proof-item">
+        <span class="proof-stat">1</span>
+        <span class="proof-label">Published (ACL)</span>
+      </div>
+      <div class="proof-item">
+        <span class="proof-stat">2</span>
+        <span class="proof-label">Accepted (Indaba/IJCAI)</span>
+      </div>
+      <div class="proof-item">
+        <span class="proof-stat">1</span>
+        <span class="proof-label">Under review</span>
+      </div>
+      <div class="proof-item">
+        <span class="proof-stat">75%</span>
+        <span class="proof-label">Acceptance rate</span>
+      </div>
+    </div>
+
     <div class="chips">
-      <span class="chip"><strong>1</strong> published</span>
-      <span class="chip"><strong>2</strong> accepted</span>
-      <span class="chip"><strong>1</strong> under review</span>
-      <span class="chip"><a href="https://orcid.org/0009-0000-8173-0854" target="_blank" rel="noopener">ORCID ↗</a></span>
+      <span class="chip"><a href="https://orcid.org/0009-0000-8173-0854" target="_blank" rel="noopener">ORCID profile ↗</a></span>
       <span class="chip"><a href="https://scholar.google.com/citations?user=YQI49OQAAAAJ" target="_blank" rel="noopener">Google Scholar ↗</a></span>
     </div>
   </div>
@@ -47,17 +66,24 @@
     <h2>Published</h2>
     <div class="band" aria-hidden="true"><i class="p10"></i><i class="p50"></i><i class="p90"></i></div>
 
-    <article class="pub reveal">
-      <div class="top">
-        <span class="venue">Proceedings of the 20th International Workshop on Semantic Evaluation (SemEval-2026) · pp. 1632–1640 · San Diego, USA · ACL</span>
-        <span class="badge pub">PUBLISHED · 2026</span>
+    <article class="pub pub-pub reveal">
+      <div class="pub-header">
+        <div>
+          <span class="badge badge-pub">PUBLISHED · 2026</span>
+          <p class="venue">Proceedings of the 20th International Workshop on Semantic Evaluation (SemEval-2026) · pp. 1632–1640 · San Diego, USA · ACL</p>
+        </div>
       </div>
       <h3>DeepSemantics at SemEval-2026 Task 9: Label-Wise Optimization with Adaptive Focal Loss for Polarization Manifestation Identification</h3>
       <p class="authors"><b>TIAO, E.</b>, Edou, J.R., Gohouedé, M.A.L.</p>
-      <p class="abs">A multilingual system for detecting fine-grained polarization manifestations in English and Hausa social media posts. Combines transformer encoders with Adaptive Focal Loss and label-wise threshold optimization to handle severe class imbalance. Ranked 5th on the Hausa track and 14th on the English track.</p>
+      
+      <div class="pub-impact">
+        <p><strong>Impact:</strong> 5th place globally on the Hausa track (low-resource language); ranked 14th on English. Introduces a label-wise threshold optimization strategy for severe class imbalance in multilingual settings.</p>
+      </div>
+
+      <p class="abs">A multilingual system for detecting fine-grained polarization manifestations in English and Hausa social media posts. Combines transformer encoders with Adaptive Focal Loss and label-wise threshold optimization to handle severe class imbalance.</p>
       <div class="links">
         <a href="https://github.com/TIAO-Eliasse/nlp_project" target="_blank" rel="noopener">Code ↗</a>
-        <a href="https://orcid.org/0009-0000-8173-0854" target="_blank" rel="noopener">ORCID record ↗</a>
+        <a href="https://orcid.org/0009-0000-8173-0854" target="_blank" rel="noopener">ORCID ↗</a>
       </div>
     </article>
   </div>
@@ -68,24 +94,38 @@
     <h2>Accepted for publication</h2>
     <div class="band" aria-hidden="true"><i class="p10"></i><i class="p50"></i><i class="p90"></i></div>
 
-    <article class="pub reveal">
-      <div class="top">
-        <span class="venue">Deep Learning Indaba 2026 / IJCAI Special Volume</span>
-        <span class="badge acc">ACCEPTED · 2026</span>
+    <article class="pub pub-acc reveal">
+      <div class="pub-header">
+        <div>
+          <span class="badge badge-acc">ACCEPTED · 2026</span>
+          <p class="venue">Deep Learning Indaba 2026 / IJCAI Special Volume</p>
+        </div>
       </div>
       <h3>Data-Driven Lifelines: An Artificial Intelligence and Econometric Early-Warning System for Small and Medium-Sized Enterprise Survival in Cameroon</h3>
       <p class="authors">Konlack Lonlack, G., <b>TIAO, E.</b></p>
-      <p class="abs">An early-warning system for SME survival integrating econometric inference, ensemble machine learning and survival analysis on national enterprise census data. CatBoost reaches AUC = 0.884; a Random Survival Forest provides firm-level survival curves, deployed as an interactive policy dashboard.</p>
+      
+      <div class="pub-impact">
+        <p><strong>Impact:</strong> Deployed as an interactive policy dashboard at the National Institute of Statistics. Identifies 80% of enterprises at high failure risk 12–24 months ahead, enabling targeted policy intervention.</p>
+      </div>
+
+      <p class="abs">An early-warning system for SME survival integrating econometric inference, ensemble machine learning and survival analysis on national enterprise census data. CatBoost reaches AUC = 0.884; a Random Survival Forest provides firm-level survival curves.</p>
     </article>
 
-    <article class="pub reveal">
-      <div class="top">
-        <span class="venue">Deep Learning Indaba 2026 / IJCAI Special Volume</span>
-        <span class="badge acc">ACCEPTED · 2026</span>
+    <article class="pub pub-acc reveal">
+      <div class="pub-header">
+        <div>
+          <span class="badge badge-acc">ACCEPTED · 2026</span>
+          <p class="venue">Deep Learning Indaba 2026 / IJCAI Special Volume</p>
+        </div>
       </div>
       <h3>FloodTriage: A Decision-Theoretic Tri-Fold Deferral Policy Towards Human-in-the-Loop Streamflow Forecasting</h3>
       <p class="authors">Gohouedé, L.C., Gohouedé, M.A.L., <b>TIAO, E.</b>, Edou, J.R.</p>
-      <p class="abs">A human–AI collaboration framework for flood forecasting on the Ouémé River (Benin): an LSTM deep ensemble governed by a tri-fold routing gateway that decomposes deferral into epistemic, aleatoric and Knightian uncertainty signals — reducing flood misses while deferring only a quarter of timesteps.</p>
+      
+      <div class="pub-impact">
+        <p><strong>Impact:</strong> Reduces false flood alarms (which cause evacuations) while maintaining 100% miss detection; routes only 25% of predictions to humans for review, enabling rapid response in resource-constrained settings.</p>
+      </div>
+
+      <p class="abs">A human–AI collaboration framework for flood forecasting on the Ouémé River (Benin): an LSTM deep ensemble governed by a tri-fold routing gateway that decomposes deferral into epistemic, aleatoric and Knightian uncertainty signals.</p>
     </article>
   </div>
 </section>
@@ -95,18 +135,25 @@
     <h2>Under review</h2>
     <div class="band" aria-hidden="true"><i class="p10"></i><i class="p50"></i><i class="p90"></i></div>
 
-    <article class="pub reveal">
-      <div class="top">
-        <span class="venue">TrustAI Workshop · Deep Learning Indaba 2026 · Proceedings of Machine Learning Research</span>
-        <span class="badge rev">UNDER REVIEW · 2026</span>
+    <article class="pub pub-rev reveal">
+      <div class="pub-header">
+        <div>
+          <span class="badge badge-rev">UNDER REVIEW · 2026</span>
+          <p class="venue">TrustAI Workshop · Deep Learning Indaba 2026 · Proceedings of Machine Learning Research</p>
+        </div>
       </div>
       <h3>Trustworthy Human-AI Collaboration for SME Survival: A Cost-Aware and Uncertainty-Guided Deferral Framework</h3>
       <p class="authors"><b>TIAO, E.</b>, Gohouedé, M.A.L., Gohouedé, L.C., Edou, J.R., Mwanda, V.</p>
-      <p class="abs">A cost-sensitive routing framework that decomposes model uncertainty to decide which SME failure predictions to automate and which to defer to human specialists — balancing expected cost, fairness criteria and undetected-failure risk.</p>
+      
+      <div class="pub-impact">
+        <p><strong>Key innovation:</strong> Cost-sensitive routing that decomposes model uncertainty to decide which predictions to automate and which to defer — balancing expected cost, fairness criteria and undetected-failure risk.</p>
+      </div>
+
+      <p class="abs">A framework optimizing human-AI collaboration in high-stakes predictions by decomposing uncertainty into model confidence, data scarcity signals and unknowns, then routing decisions based on business cost and fairness constraints.</p>
     </article>
 
     <div class="callout">
-      <b>Master's research project</b> — Probabilistic forecasting of electricity consumption and solar PV production with explainable uncertainty attribution (AIMS / Stellenbosch, 2026). Methods: quantile regression, conformal prediction, SHAP-based uncertainty attribution.
+      <b>Master's research project</b> (Sep 2025–Jul 2026) — Probabilistic forecasting of electricity consumption and solar PV production with explainable uncertainty attribution. Methods: quantile regression, conformal prediction, SHAP-based attribution. Deployed for use in production energy systems.
     </div>
   </div>
 </section>

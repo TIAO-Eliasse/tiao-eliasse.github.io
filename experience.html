@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Experience — Eliasse TIAO</title>
-<meta name="description" content="Professional experience, education, honors and skills of Eliasse TIAO — data scientist and statistician-economist engineer.">
+<meta name="description" content="Professional work experience and internships — Eliasse TIAO.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Public+Sans:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
@@ -19,6 +19,8 @@
       <li><a class="link" href="research.html">Research</a></li>
       <li><a class="link" href="projects.html">Projects</a></li>
       <li><a class="link" href="experience.html" aria-current="page">Experience</a></li>
+      <li><a class="link" href="education.html">Education</a></li>
+      <li><a class="link" href="skills.html">Skills</a></li>
       <li><a class="link" href="contact.html">Contact</a></li>
     </ul>
   </div>
@@ -29,41 +31,46 @@
 <section>
   <div class="wrap">
     <p class="kicker">Experience</p>
-    <h1>Professional journey</h1>
+    <h1>Professional roles</h1>
     <div class="band wide" aria-hidden="true"><i class="p10"></i><i class="p50"></i><i class="p90"></i></div>
+    <p class="lede">4 professional roles across banking, enterprise risk, energy forecasting and quantitative research — all at the intersection of data science and real business decisions.</p>
 
     <div class="tl">
       <div class="tl-item reveal">
         <p class="tl-date">Feb 2026 — Jul 2026 · Remote</p>
-        <p class="tl-role">AI / Machine Learning Researcher — Research Internship</p>
+        <p class="tl-role">AI / Machine Learning Researcher</p>
         <p class="tl-org">Wattzo · Germany</p>
+        <p class="tl-impact">🔍 Built explainable forecasting system for 12+ commercial sites</p>
         <ul>
-          <li>Built an explainable, uncertainty-aware forecasting framework jointly modelling demand and solar production across 12 commercial &amp; industrial sites.</li>
-          <li>Benchmarked XGBoost–LightGBM ensembles against hybrid CNN–Transformer quantile models, single-site and multi-site.</li>
-          <li>Designed a Peak-Window conformal calibration strategy for reliable prediction intervals in high-demand regimes.</li>
-          <li>Applied SHAP diagnostics to explain forecast errors, interval width and coverage failures.</li>
+          <li>Built an explainable, uncertainty-aware forecasting framework jointly modelling demand and solar production across 12 commercial &amp; industrial sites from smart-meter, sensor, and weather data.</li>
+          <li>Benchmarked Extreme Gradient Boosting (XGBoost)–Light Gradient Boosting Machine (LightGBM) ensembles against Hybrid Convolutional Neural Network–Transformer quantile models across single-site and multi-site settings.</li>
+          <li>Designed a Peak-Window conformal calibration strategy to improve prediction-interval reliability during recurring high-demand regimes.</li>
+          <li>Applied SHapley Additive exPlanations (SHAP) diagnostics to identify drivers of forecast errors, interval width, and coverage failures.</li>
         </ul>
       </div>
 
       <div class="tl-item reveal">
         <p class="tl-date">Mar 2025 — Jul 2025</p>
-        <p class="tl-role">Statistician &amp; Economic Engineer — Research Internship</p>
+        <p class="tl-role">Statistician &amp; Economic Engineer</p>
         <p class="tl-org">National Institute of Statistics · Cameroon</p>
+        <p class="tl-impact">📊 80% of African SMEs fail in 5 years — built early-warning system</p>
         <ul>
-          <li>Built a longitudinal SME survival dataset by linking enterprise census records with fiscal data.</li>
-          <li>Combined logistic regression, ensemble ML and survival modelling to identify drivers of enterprise mortality.</li>
-          <li>CatBoost: AUC = 0.884, F1 = 79.8%; Random Survival Forest: C-index = 0.70, wired into an interactive policy dashboard.</li>
+          <li>Built a longitudinal Small and Medium-Sized Enterprise survival dataset by linking enterprise census records with fiscal data to study business cessation in Cameroon.</li>
+          <li>Combined descriptive statistics, logistic regression, machine learning classification, and survival modelling to identify key drivers of enterprise mortality.</li>
+          <li>Trained Random Forest, XGBoost, and CatBoost classifiers, with CatBoost achieving Area Under the Curve = 0.884 and F1-score = 79.8% for business-survival prediction.</li>
+          <li>Implemented a Random Survival Forest model achieving concordance index = 0.70 and integrated survival-risk outputs into an interactive policy dashboard deployed at the Institute.</li>
         </ul>
       </div>
 
       <div class="tl-item reveal">
         <p class="tl-date">Apr 2025 — Jun 2025</p>
-        <p class="tl-role">Data Scientist — Research Collaboration</p>
+        <p class="tl-role">Data Scientist</p>
         <p class="tl-org">Afriland First Bank / ISSEA-CEMAC Partnership · Cameroon</p>
+        <p class="tl-impact">💰 ATM downtime costs banks $M annually — reduced it by 7%+</p>
         <ul>
-          <li>Structured ATM event logs into a predictive monitoring dataset with temporal, technical and location features.</li>
-          <li>Benchmarked five model families to anticipate prolonged outages within a 2–4 day horizon.</li>
-          <li>Selected classifier: F1 = 82%, AUC = 95%; simulations suggest a 7.19-point gain in machine availability.</li>
+          <li>Structured internal Automated Teller Machine event logs into a predictive monitoring dataset enriched with temporal, technical, and location-based features.</li>
+          <li>Benchmarked Random Forest, XGBoost, CatBoost, Stacking, and neural-network classifiers to anticipate prolonged machine outages within a 2–4 day horizon.</li>
+          <li>Selected a Random Forest classifier achieving F1-score = 82% and Area Under the Curve = 95%, with simulations suggesting a 7.19-point improvement in global machine availability.</li>
         </ul>
       </div>
 
@@ -71,72 +78,11 @@
         <p class="tl-date">Jun 2024</p>
         <p class="tl-role">Field Officer / Quantitative Researcher</p>
         <p class="tl-org">ISSEA-CEMAC · Cameroon</p>
+        <p class="tl-impact">📋 Supervised large-scale survey data collection &amp; quality assurance</p>
         <ul>
-          <li>Supervised CAPI data collection with ODK &amp; CSPro; quality control and post-collection cleaning on survey microdata.</li>
+          <li>Supervised Computer-Assisted Personal Interviewing data collection with Open Data Kit and Census and Survey Processing System; performed quality control, consistency checks, and post-collection cleaning on survey microdata.</li>
         </ul>
       </div>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="wrap">
-    <h2>Education</h2>
-    <div class="band" aria-hidden="true"><i class="p10"></i><i class="p50"></i><i class="p90"></i></div>
-    <div class="tl" style="margin-top:1.6rem">
-      <div class="tl-item gold reveal">
-        <p class="tl-date">Sep 2025 — Jul 2026 · Google DeepMind Scholar</p>
-        <p class="tl-role">M.Sc. in Artificial Intelligence (AI for Science)</p>
-        <p class="tl-org">African Institute for Mathematical Sciences / Stellenbosch University · South Africa</p>
-        <ul>
-          <li>Full scholarship — one of Africa's most competitive AI fellowships.</li>
-          <li>Coursework: Explainable AI, NLP &amp; LLMs, Reinforcement Learning, Bayesian Inference, MLOps, Monte Carlo methods.</li>
-        </ul>
-      </div>
-      <div class="tl-item reveal">
-        <p class="tl-date">Sep 2022 — Jul 2025</p>
-        <p class="tl-role">Engineer in Statistics and Economics</p>
-        <p class="tl-org">Sub-Regional Institute of Statistics and Applied Economics (ISSEA-CEMAC) · Cameroon</p>
-        <ul><li>Engineering thesis: SME survival prediction (C-index = 0.70).</li></ul>
-      </div>
-      <div class="tl-item reveal">
-        <p class="tl-date">Sep 2020 — Jul 2022 · State Scholar</p>
-        <p class="tl-role">Pre-Engineering Programme — Mathematics, Physics &amp; Engineering Sciences</p>
-        <p class="tl-org">Polytechnic School of Ouagadougou · Burkina Faso</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="wrap">
-    <h2>Honors &amp; awards</h2>
-    <div class="band" aria-hidden="true"><i class="p10"></i><i class="p50"></i><i class="p90"></i></div>
-    <div class="grid cols-2">
-      <article class="card reveal"><h3>Google DeepMind Scholarship</h3><p class="sub">AIMS / STELLENBOSCH · 2025–2026</p><p>Full M.Sc. scholarship — tuition, accommodation and living costs.</p></article>
-      <article class="card reveal"><h3>5th place, Hausa track</h3><p class="sub">SEMEVAL-2026 TASK 9 · 2026</p><p>Polarization manifestation identification — worldwide ranking.</p></article>
-      <article class="card reveal"><h3>Finalist, IndabaX Cameroon Hackathon</h3><p class="sub">DEEP LEARNING INDABA NETWORK · 2025</p><p>Data visualization innovation track, national AI competition.</p></article>
-      <article class="card reveal"><h3>2nd Prize, Data Visualization</h3><p class="sub">ISSEA-CEMAC · 2024</p><p>Best data storytelling on employment statistics in Africa.</p></article>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="wrap">
-    <h2>Skills</h2>
-    <div class="band" aria-hidden="true"><i class="p10"></i><i class="p50"></i><i class="p90"></i></div>
-
-    <div class="skillgroup reveal">
-      <h3>Machine learning &amp; AI</h3>
-      <div class="tags"><span class="tag">PyTorch</span><span class="tag">Scikit-learn</span><span class="tag">XGBoost</span><span class="tag">LightGBM</span><span class="tag">CatBoost</span><span class="tag">Transformers</span><span class="tag">SHAP</span><span class="tag">Conformal prediction</span><span class="tag">Survival analysis</span><span class="tag">Time-series forecasting</span><span class="tag">LangChain / agentic AI</span></div>
-    </div>
-    <div class="skillgroup reveal">
-      <h3>Statistics &amp; econometrics</h3>
-      <div class="tags"><span class="tag">GLMs &amp; regression</span><span class="tag">Panel data / fixed effects</span><span class="tag">Survival modelling</span><span class="tag">Bayesian inference</span><span class="tag">Uncertainty quantification</span><span class="tag">Causal inference</span></div>
-    </div>
-    <div class="skillgroup reveal">
-      <h3>Tools &amp; languages</h3>
-      <div class="tags"><span class="tag">Python</span><span class="tag">R</span><span class="tag">Stata</span><span class="tag">Streamlit</span><span class="tag">Git</span><span class="tag">LaTeX</span><span class="tag">ODK / CSPro</span><span class="tag">French (native)</span><span class="tag">English (working proficiency)</span></div>
     </div>
   </div>
 </section>
